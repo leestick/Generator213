@@ -3,7 +3,7 @@ import config
 from clean_all_xml import clean_all_xml
 from DOC_SELECTOR import doc_selector
 
-#очищаем каталоги OUT
+# clean /OUT dir with sub-dirs
 clean_all_xml()
 
 type_of_doc=input('\nВведите тип документа (SKO, GOZKO или *):')
